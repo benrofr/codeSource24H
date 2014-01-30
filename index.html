@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Open Data Minicode</title>
+	
+	<!--[if le IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="scripts/respond.js"></script>
+    <![endif]-->
+    
+    <!-- The following two elements pull in the styles for the default template functionality  -->
+    
+	<link href="styles/install-button.css" rel="stylesheet" type="text/css">
+	<link href="styles/normalize.css" rel="stylesheet" type="text/css">
+	
+	<!-- Below is your custom application stylesheet -->
+	
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	
+</head>
+<body>
+	<script type="text/javascript">
+	/*window.onload = function(){
+		var test = readDoc('routes');
+		str = "<select>";
+		for (var i=1; i<test.length; i++){
+			str = str + "<option>" + test[i][3] + "</option>";
+		}
+		str = str + "</select>";
+		//document.write(str);
+	}*/
+	</script>
+	<center><div id="content">
+		<div id="form">
+  		</div>
+  		<button onclick="selectLigne();" id="install-btn">RECHERCHE</button>
+  	</div></center>
+
+  <!-- <button onclick="readAgency()">Lecture Agences</button> -->
+  
+
+<!-- The following element pulls in the script for the default template functionality -->
+	
+<script src="scripts/install.js"></script>	
+
+<!-- Below is your custom application script -->
+
+<script src="scripts/app.js"></script>
+
+<script src="scripts/readFiles.js"></script>
+	
+</body>
+</html>

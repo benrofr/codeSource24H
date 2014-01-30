@@ -1,0 +1,16 @@
+{
+  "version": "0.1",
+  "name": "Open Data Minicode",
+  "description": "Gestion des données libres de transports publics",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/app-icons/icon-16.png",
+    "48": "/app-icons/icon-48.png",
+    "128": "/app-icons/icon-128.png"
+  },
+  "developer": {
+    "name": "Minicodes"
+  },
+  "locales": {},
+  "default_locale": "fr"
+}
